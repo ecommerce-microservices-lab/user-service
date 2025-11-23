@@ -184,6 +184,9 @@
 					<exclude>**/toString</exclude>
 					<exclude>**/hashCode</exclude>
 					<exclude>**/equals</exclude>
+					<exclude>**/dto/**</exclude>
+					<exclude>**/domain/AbstractMappedEntity.class</exclude>
+					<exclude>**/domain/VerificationToken.class</exclude>
 				</excludes>
 			</configuration>
             <executions>
